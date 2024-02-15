@@ -5,6 +5,7 @@
 	<Nullable>annotations</Nullable>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<UserSecretsId>297b3a2c-f736-467a-b81d-f3691aefee20</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'xamarinchatsrWeb' " />

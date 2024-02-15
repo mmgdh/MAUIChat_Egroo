@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy", builder =>
     builder
-    .WithOrigins("https://egroo.org", "https://www.egroo.org")
+    .AllowAnyOrigin()
     .AllowAnyMethod()
     .AllowAnyHeader());
 });
