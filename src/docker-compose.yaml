@@ -12,7 +12,8 @@ services:
     ports:
       - "5432:5432"
 
-  web:
+  chat-server-image:
+    image: chat-server-image
     container_name: 'chat-server'
     build:
       context: ./
